@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Some Pictures I took</title>
+</head>
+<body>
+<!-- content starts below  here -->
+  <h1>Some Pictures I Like</h1>
+  <p><img src="https://lh3.googleusercontent.com/EqUoDpKghnRtk1mmhcwzLvEXE7D5iN90XBhjeOl6KD6J8d6CtX65h5XAQdpZdUXodeHfrNBXeXmsdUEkkGAYwd2QFPeKd492woaJyzF0uo4QynzdZpjjJVYDbz1g_cQTGVpU4tYXLKLwsteW3k1qxchn3dROmFe9fTG0vdiz5l7hQthKqZBlE5Jt6AfPoGzQX9kMoZawjdYISV9U1xxsThY9QqHx6YuAP9aYZ7JN91R02cVD-8ZKp5S3tIS-xAMSXBkH7cuvQT4MeLlXlJSTTGoBHfucOwmN6PjmitdBalC3B6usHRJtXETJLBsYiIh3o0gfEyKOEX_wgE_peSQGdUAU_aAHXr7-PxSeR6WOVoMm3QNpJNP9CbRS9zFnZ4QC6LPq72UMWFh7_G3GeUlDEdZYcMx2o44tRghKuVodcxMntRHkORGayR6IuSZ39KCyijbD5RE9fFOx8nGnc3LeBcl1sHBFrwqaQchFXDh4oX-gZ7WjK1YgB09n1yYZS8_yVhDYq6TaVejE8KZiWXzhB_dyheMb8axs-PWKTZiW6HBNSIwpeeYlsZarA9oqkhPThopthpcL-jpTwQ2QMTl8VKfB9RaGGLJYxeIu-lUMbw71DCQph535aMtlX0vIZK6XU7rd7lLJzN8S9_ZUftXUJhA2GF5vaxKmm70QpdBOuv9O25530IhEyhgQhs23peB8sYLpDO-ap-GCop2ixILV3_Y=w1095-h821-no?authuser=1" alt=""></p>
+  <p><img src="http://www.openbookproject.net/multimedia/paulcardunergraphics/fantasy/small/sub.gif" alt=""></p>
+  <p><img src="http://www.openbookproject.net/multimedia/paulcardunergraphics/abstract/small/glass.gif" alt=""></p>
+  <p><img src="http://www.openbookproject.net/multimedia/paulcardunergraphics/nature/small/flower.gif" alt=""></p>
+  <p><img src="http://www.openbookproject.net/multimedia/paulcardunergraphics/landscape/small/lakeclouds.gif" alt=""></p>
+
+
+ 
+  <footer>
+  <br>
+  <a href="http://validator.w3.org/check?uri=https://steve123410.github.io/website/gallery1.html">
+  <strong> HTML </strong> Valid! </a>
+  <a href="http://jigsaw.w3.org/css-validator?uri=https://steve123410.github.io/website/gallery1.html?profile=css3">
+  <strong> CSS </strong> Valid! </a>
+  <div style="padding: 20px;"></div>
+</footer>
+ </body>
+<!-- content  ends above here -->
+</html>
