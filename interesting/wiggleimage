@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <title> Interesting Homepage</title>
+</head>
+<body>
+<!-- content ends above here -->
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+<footer style="font-family:monospace;">
+  <p>*Just some stuff being adapted from w3schools that I thought was cool</p>
+  <br>
+   <a href="http://validator.w3.org/check?uri=https://steve123410.github.io/website/interesting/wiggleimage.html">
+  <strong> HTML </strong> Valid! </a>
+  <a href="http://jigsaw.w3.org/css-validator?uri=https://steve123410.github.io/website/interesting/wiggleimage.html?profile=css3">
+  <strong> CSS </strong> Valid! </a>
+  <div style="padding: 20px;"></div>
+</footer>
+</body>
+</html>
