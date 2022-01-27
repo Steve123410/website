@@ -63,8 +63,8 @@
 	<li>Relational</li>
 </ol>
 <footer style="font-family:monospace;">
-  <p>*still working on adding links to my work</p>
   <br>
+   <h3><a href=".."> Go Back</a></h3>
   <a href="http://validator.w3.org/check?uri=https://dafnihrz.github.io/website/">
   <strong> HTML </strong> Valid! </a>
   <a href="http://jigsaw.w3.org/css-validator?uri=https://dafnihrz.github.io/website/?profile=css3">
