@@ -8,3 +8,8 @@ color:grey;
       border-bottom: 1px solid black;
     }
     p { color: maroon; }
+    text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #9900cc;
