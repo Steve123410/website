@@ -1,5 +1,9 @@
-p
-{
-  color:blue;
+p{color:blue;}
 
+footer {
+text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #9900cc;
 }
