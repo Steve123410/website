@@ -4,22 +4,24 @@ font-family: sans-serif;
 }    
 
 h1, h2 
-    {
+{
 font-family: sans-serif;
 color:grey;
-    }
-    h1
-    {
-border-bottom: 1px solid black;
-    }
-h2 
+}
+
+h1
 {
-   text-align: center;
+border-bottom: 1px solid black;
 }
-    p { 
+
+p { 
 color: maroon;
-text-align: center;
 }
+
+em {
+font-family: serif;
+}
+
 footer {
 text-align: center;
 }
