@@ -1,26 +1,23 @@
-body 
-{
-font-family: sans-serif; 
+body {
+    font-family: sans-serif; 
+    color:green;
 }    
+p {color: black;}
 
-h1, h2 
-{
-font-family: sans-serif;
-color:grey;
+h1, h2 {
+    font-family: sans-serif;
+    color:grey;
 }
 
-h1
-{
-border-bottom: 1px solid black;
-}
+h1{border-bottom: 1px solid black;}
 
-p { 
-color: maroon;
-}
+em {font-family: serif;}
 
-em {
-font-family: serif;
-}
+.greentea{color:green;}
+.razztea{color:blue;}
+.bluetea{color:purple;}
+.crantea{color:maroon;}
+    
 
 footer {
 text-align: center;
