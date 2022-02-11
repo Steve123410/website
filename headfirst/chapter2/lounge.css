@@ -12,6 +12,10 @@ color:grey;
     {
 border-bottom: 1px solid black;
     }
+h2 
+{
+   text-align: center;
+}
     p { 
 color: maroon;
 text-align: center;
