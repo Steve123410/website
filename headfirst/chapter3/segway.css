@@ -5,11 +5,11 @@ src: url("https://steve123410.github.io/website/headfirst/chapter3/GreatVibes-Re
 
 body {
 font-family: "GreatVibes", Verdana, Geneva, Arial, sans-serif; 
-font-size:14px;
+font-size:small;
 }
 h1{
-font-size:150%;
+font-size:220%;
 }
 h2{
-font-size:1.2em;
+font-size:130%;
 }
