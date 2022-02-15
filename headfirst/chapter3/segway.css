@@ -3,6 +3,9 @@ font-family: "GreatVibes";
 src: url("https://steve123410.github.io/website/headfirst/chapter3/GreatVibes-Regular.otf"), url("https://steve123410.github.io/website/headfirst/chapter3/GreatVibes-Regular.ttf");
 }
 
-body {font-family: "GreatVibes", Verdana, Geneva, Arial, sans-serif; }
+body {
+font-family: "GreatVibes", Verdana, Geneva, Arial, sans-serif; 
+font-size:14px;
+}
 
 
