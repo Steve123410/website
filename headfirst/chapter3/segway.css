@@ -11,7 +11,7 @@ h1,h2
 {
   font-family: "GreatVibes", Verdana, Geneva, Arial, sans-serif; 
   color:#cc6600;
-  text-decoration:underline;
+  border-bottom: thin dotted #888888;
 }
 h1{
 font-size:220%;
