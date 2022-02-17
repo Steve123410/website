@@ -1,0 +1,12 @@
+h1{
+    color:#660387;
+    text-align: center;
+}
+
+footer {
+text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #9900cc;
+}
