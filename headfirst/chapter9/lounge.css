@@ -3,7 +3,15 @@ body {
   font-family: Times, "Times New Roman", serif;
   line-height:1.6em;
 }
-
+.guarantee {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #a7cece;
+}
+ 
+2
+     }
 h1, h2 {
   color: #007e7e;
 }
