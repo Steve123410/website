@@ -4,11 +4,22 @@ body {
   line-height:1.6em;
 }
 .guarantee {
+  font-size: small;
+  font-family: Times, "Times New Roman", serif;
+  line-height:1.6em;
   border-color: black;
   border-width: 1px;
   border-style: solid;
   background-color: #a7cece;
   padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 250px;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  border-side: dashed;
+  border-color:white;
 }
      }
 h1, h2 {
