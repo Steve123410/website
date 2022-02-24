@@ -25,6 +25,24 @@ p#footer
 {
   color: red; 
 }
+@media screen and (min-device-width: 481px) { 
+ #guarantee {
+  margin-right: 250px;
+      }
+}
+@media screen and (max-device-width: 480px) { 
+  #guarantee {
+    margin-right: 30px;
+  }
+}
+@media print { 
+  body {
+    font-family: Times, "Times New Roman", serif; 
+  }
+}
+p.specials{
+color:red;
+}
 h1, h2 {
   color: #007e7e;
 }
