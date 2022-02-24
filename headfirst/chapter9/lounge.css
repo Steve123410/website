@@ -21,7 +21,10 @@ body {
   border-side: dashed;
   border-color:white;
 }
-     }
+p#footer
+{
+  color: red; 
+}
 h1, h2 {
   color: #007e7e;
 }
