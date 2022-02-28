@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Head First Lounge Directions</title>
+    <link type="text/css" rel="stylesheet" href="../lounge.css">
+  </head>
+  <body>
+    <h1>Directions</h1>
+    <p>Take the 305 S exit to Webville - go 0.4 mi</p>
+    <p>Continue on 305 - go 12 mi</p>
+    <p>Turn right at Structure Ave N - go 0.6 mi</p>
+    <p>Turn right and head toward Structure Ave N - go 0.0 mi</p>
+    <p>Turn right at Structure Ave N - go 0.7 mi</p>
+    <p>Continue on Structure Ave S - go 0.2 mi</p>
+    <p>Turn right at SW Presentation Way - go 0.0 mi</p>
+    <a href="../lounge.html">Back to Lounge</a>    
+<footer>
+  <a href=".."> <b> Back </b></a> |
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+<script>
+var loc = window.location.href;
+var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                          loc + '?profile=css3';
+document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+</script>
+</body>
+</html>
