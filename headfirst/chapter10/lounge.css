@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif; 
+    color:green;
+}    
+p {color: black;}
+
+h1, h2 {
+    font-family: sans-serif;
+    color:grey;
+}
+
+h1{border-bottom: 1px solid black;}
+
+em {font-family: serif;}
+
+.greentea{color:green;}
+.razztea{color:blue;}
+.bluetea{color:purple;}
+.crantea{color:maroon;}
+    
+
+footer {
+text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #9900cc;
+}
