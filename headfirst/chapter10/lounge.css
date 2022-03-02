@@ -17,6 +17,12 @@ em {font-family: serif;}
 .razztea{color:blue;}
 .bluetea{color:purple;}
 .crantea{color:maroon;}
+
+#elixirs {
+border-width: thin;
+border-style: solid;
+border-color: #007e7e;
+}
     
 
 footer {
