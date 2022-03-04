@@ -21,6 +21,8 @@ em {font-family: serif;}
 #elixirs{
 border: solid thin #007e7e;
     
+line-height:1em;
+    
 width:200px;
     
 padding: 0px 20px 30px 10px;
