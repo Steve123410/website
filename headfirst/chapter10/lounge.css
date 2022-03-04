@@ -33,6 +33,9 @@ text-align: center;
     
 background: url(images/cocktail.gif) repeat-x;
 }
+
+.cd{ font-style: itallic;}
+.artist{ font:bold;}
 #elixirs h2 {
 color: black; 
 }
