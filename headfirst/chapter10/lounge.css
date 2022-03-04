@@ -35,13 +35,31 @@ background: url(images/cocktail.gif) repeat-x;
 }
 
 .cd{ font-style: itallic;}
-.artist{ font:bold;}
+.artist{ font-weight:bold;}
+
+#elixers a:link{
+    color: #007e7e;
+}
+#elixers a:visted{
+    color: #333333;
+}
+#elixers a:hover{
+    background: #f88396;
+    color: #0d5353;
+}
+
 #elixirs h2 {
 color: black; 
 }
+
  #elixirs h3{
      color: #d12c47;
 }
+
+
+
+
+
 footer {
 text-align: center;
 }
