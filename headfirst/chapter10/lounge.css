@@ -34,8 +34,6 @@ text-align: center;
 background: url(images/cocktail.gif) repeat-x, top left;
 }
 
-.cd{ font-style: itallic;}
-.artist{ font-weight:bold;}
 
 #elixers a:link{
     color: #007e7e;
@@ -56,6 +54,12 @@ color: black;
      color: #d12c47;
 }
 
+.cd{ 
+    font-style: itallic;
+}
+.artist{ 
+    font-weight:bold;
+}
 
 
 
