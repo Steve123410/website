@@ -20,7 +20,11 @@ footer>a, footer>a:visited {
         var bottom = c.getContext("2d");
         var middle = c.getContext("2d");
         var top = c.getContext("2d");
-
+        
+        top.beginPath();
+        top.arc(700, 100, 50, 0, 2 * Math.PI);
+        top.stroke();
+        
         bottom.beginPath();
         bottom.arc(700, 600, 150, 0, 2 * Math.PI);
         bottom.stroke();
@@ -29,9 +33,7 @@ footer>a, footer>a:visited {
         middle.arc(700, 350, 100, 0, 2 * Math.PI);
         middle.stroke();
         
-        top.beginPath();
-        top.arc(700, 100, 50, 0, 2 * Math.PI);
-        top.stroke();
+        
         
     </script>
 <footer>
