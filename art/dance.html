@@ -1,0 +1,40 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+
+<style>
+footer {
+    text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #9900cc;
+  </style>
+</head>
+<body>
+  <img id="scream" src="wholesome-squiddy-ricardo-milos.gif" alt="squidward" width="660" height="831">
+
+  <canvas id="dance" width="1420" height="750" style="border:1px solid #000000;"></canvas>
+        <script>
+          var c = document.getElementById("dance");
+          var ctx = c.getContext("2d");
+          var img = document.getElementById("squidward");
+          ctx.drawImage(img, 10, 10);
+  </script>
+<footer>
+<a href=".."> <b> Back </b></a>|
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+<script>
+var loc = window.location.href;
+var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                          loc + '?profile=css3';
+document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+</script>
+</body>
+</html>
