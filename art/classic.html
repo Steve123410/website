@@ -14,8 +14,14 @@ footer>a, footer>a:visited {
   </style>
 </head>
 <body>
-<canvas>id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
-
+  <canvas>id="classic" width="400" height="400" style="border:1px solid #000000;"></canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+    </script>
 <footer>
 <a href=".."> <b> Back </b></a>|
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
