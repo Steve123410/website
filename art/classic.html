@@ -17,10 +17,16 @@ footer>a, footer>a:visited {
   <canvas id="classic" width="1420" height="750" style="border:1px solid #000000;"></canvas>
     <script>
         var c = document.getElementById("classic");
-        var ctx = c.getContext("2d");
-        ctx.beginPath();
-        ctx.arc(700, 600, 40, 0, 2 * Math.PI);
-        ctx.stroke();
+        var bottom = c.getContext("2d");
+        var middle = c.getContext("2d");
+
+        bottom.beginPath();
+        bottom.arc(700, 600, 150, 0, 2 * Math.PI);
+        bottom.stroke();
+        
+        middle.beginPath();
+        middle.arc(700, 500, 100, 0, 2 * Math.PI);
+        middle.stroke();
     </script>
 <footer>
 <a href=".."> <b> Back </b></a>|
