@@ -23,7 +23,8 @@ footer>a, footer>a:visited {
         var yellowSquare = c.getContext("2d");
         
         var line1 = c.getContext("2d");
-
+        var line2 = c.getContext("2d");
+        var line3 = c.getContext("2d");
         
         redSquare.fillStyle = "#ff00aa";
         redSquare.fillRect(0, 0, 300, 300);
@@ -33,6 +34,12 @@ footer>a, footer>a:visited {
         
         line1.fillStyle = "#000000";
         line1.fillRect(300, 0, 25, 750);
+        
+        line2.fillStyle = "#000000";
+        line2.fillRect(0, 300, 750, 25);
+        
+        line3.fillStyle = "#000000";
+        line3.fillRect(0, 425, 750, 25);
 
 
     </script>
