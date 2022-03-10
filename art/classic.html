@@ -26,16 +26,13 @@ footer>a, footer>a:visited {
         //var sunEnd = -7*Math.PI;
         
         var cloud = c.getContext("2d");
-        var centerX = canvas.width / 2;
-        var centerY = canvas.height / 2;
-        var radius = 70;
 
         cloud.beginPath();
-        cloud.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-        cloud.fillStyle = 'white';
+        cloud.arc(100, 100, 40, 0, 2 * Math.PI,);
+        cloud.fillStyle = "white";
         cloud.fill();
         cloud.lineWidth = 5;
-        cloud.strokeStyle = '#003300';
+        cloud.strokeStyle = "#003300";
         cloud.stroke();
      
         sun.beginPath();
