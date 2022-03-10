@@ -19,6 +19,8 @@ footer>a, footer>a:visited {
         var c = document.getElementById("classic");
         var ocean = c.getContext("2d");
         
+        var sky = c.getContext("2d");
+        
         var sun = c.getContext("2d");       
         //var sunStart = -11*Math.PI;
         //var sunEnd = -7*Math.PI;
@@ -30,7 +32,7 @@ footer>a, footer>a:visited {
 
         cloud.beginPath();
         cloud.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-        cloud.fillStyle = 'wwhite';
+        cloud.fillStyle = 'white';
         cloud.fill();
         cloud.lineWidth = 5;
         cloud.strokeStyle = '#003300';
@@ -40,12 +42,11 @@ footer>a, footer>a:visited {
         sun.arc(710,550,40, 0,2*Math.PI);
         sun.stroke(); 
         
-        cloud.beginPath();
-        cload.arc((710,550,40, 0, 2*Math.PI);
-        
+        sky.fillStyle = "#ff00aa";
+        sky.fillRect(0, 0, 1420, 750);
         
         ocean.fillStyle = "#2562c4";
-        ocean.fillRect(0, 550, 1420, 1420, 200);
+        ocean.fillRect(0, 550, 1420, 200);
              
     </script>
         
