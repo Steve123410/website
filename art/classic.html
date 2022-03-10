@@ -14,24 +14,42 @@ footer>a, footer>a:visited {
   </style>
 </head>
 <body>
-  <canvas id="classic" width="1420" height="750" style="border:1px solid #000000;"></canvas>
+  <canvas id="classic" width="1420" height="750" style="border:1px solid #ff00aa;"></canvas>
     <script>
         var c = document.getElementById("classic");
-        var sky = c.getContext("2d");
         var ocean = c.getContext("2d");
-        var sun = c.getContext("2d");
+        
+        var sun = c.getContext("2d");       
         var sunStart = -11*Math.PI;
         var sunEnd = -7*Math.PI;
         
-        sky.fillStyle = "#ff00aa";
-        sky.fillRect(0, 0, 1420, 750);
-        
-        ocean.fillStyle = "#2562c4";
-        ocean.fillRect(0, 550, 1420, 1420, 200);
+        var cloud = c.getContext("2d");
+        var centerX = canvas.width / 2;
+        var centerY = canvas.height / 2;
+        var radius = 70;
+
+        cloud.beginPath();
+        cloud.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+        cloud.fillStyle = 'wwhite';
+        cloud.fill();
+        cloud.lineWidth = 5;
+        cloud.strokeStyle = '#003300';
+        cloud.stroke();
      
         sun.beginPath();
         sun.arc(710,550,40, sunStart/6, sunEnd/6);
-        sun.stroke();
+        sun.stroke(); 
+        
+        cloud.beginPath();
+        cload.arc((710,550,40, 0, 2*Math.PI);
+        
+        
+        ocean.fillStyle = "#2562c4";
+        ocean.fillRect(0, 550, 1420, 1420, 200);
+        
+        
+     
+       
         
     </script>
         
