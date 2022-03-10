@@ -19,12 +19,19 @@ footer>a, footer>a:visited {
         var c = document.getElementById("classic");
         var sky = c.getContext("2d");
         var ocean = c.getContext("2d");
-
+        var sun = c.getContext("2d");
+        var sunStart = 11*Math.PI;
+        var sunEnd = 7*Math.PI;
+        
         sky.fillStyle = "#ff00aa";
         sky.fillRect(0, 0, 1420, 750);
         
         ocean.fillStyle = "#2562c4";
         ocean.fillRect(0, 550, 1420, 1420, 200);
+     
+        sun.beginPath();
+        sun.arc(95, 50, 40, sunStart/6, sunEnd/6);
+        sun.stroke();
         
     </script>
         
