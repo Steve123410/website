@@ -20,8 +20,8 @@ footer>a, footer>a:visited {
         var ocean = c.getContext("2d");
         
         var sun = c.getContext("2d");       
-        var sunStart = -11*Math.PI;
-        var sunEnd = -7*Math.PI;
+        //var sunStart = -11*Math.PI;
+        //var sunEnd = -7*Math.PI;
         
         var cloud = c.getContext("2d");
         var centerX = canvas.width / 2;
@@ -37,7 +37,7 @@ footer>a, footer>a:visited {
         cloud.stroke();
      
         sun.beginPath();
-        sun.arc(710,550,40, sunStart/6, sunEnd/6);
+        sun.arc(710,550,40, 0,2*Math.PI);
         sun.stroke(); 
         
         cloud.beginPath();
@@ -46,11 +46,7 @@ footer>a, footer>a:visited {
         
         ocean.fillStyle = "#2562c4";
         ocean.fillRect(0, 550, 1420, 1420, 200);
-        
-        
-     
-       
-        
+             
     </script>
         
 <footer>
