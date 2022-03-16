@@ -49,15 +49,37 @@
        <a href="#">Wizard</a>
     </div>
   </div>
+  <div class="dropdown">
+    <button onclick="backgroundDropDown()" class="dropbtn">Dropdown</button>
+     <div id="background" class="dropdown-content">
+       <a href="#">Acolyte</a>
+       <a href="#">Charlatan</a> 
+       <a href="#">Criminal</a>
+       <a href="#">Entertainer>
+       <a href="#">Folk Hero</a>
+       <a href="#">Guild Artisians</a>
+       <a href="#">Hermit</a>
+       <a href="#">Noble</a>
+       <a href="#">Outlander</a>
+       <a href="#">Sage</a>
+       <a href="#">Sailor</a>
+       <a href="#">Soilder</a>
+       <a href="#">Urchin</a>
+    </div>
+  </div>
   
   <script>
     /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function raceDropDown() {
   document.getElementById("race").classList.toggle("show");
+}
 function classDropDown() {
   document.getElementById("class").classList.toggle("show");
 }
+function backgroundDropDown() {
+  document.getElementById("background").classList.toggle("show");
+
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
