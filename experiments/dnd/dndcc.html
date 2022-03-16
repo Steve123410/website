@@ -14,7 +14,7 @@
  <br> 
    
   <div class="dropdown">
-    <button onclick="raceDropDown()" class="dropbtn">Dropdown</button>
+    <button onclick="raceDropdown()" class="dropbtn">Dropdown</button>
      <div id="race" class="dropdown-content">
        <a href="#">Hill Dwarf</a>
        <a href="#">Mountain Dwarf</a> 
@@ -49,6 +49,7 @@
        <a href="#">Wizard</a>
     </div>
   </div>
+  
   <div class="dropdown">
     <button onclick="backgroundDropDown()" class="dropbtn">Dropdown</button>
      <div id="background" class="dropdown-content">
@@ -67,7 +68,7 @@
        <a href="#">Urchin</a>
     </div>
   </div>
-  
+
   <script>
     /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
@@ -75,10 +76,11 @@ function raceDropDown() {
   document.getElementById("race").classList.toggle("show");
 }
 function classDropDown() {
-  document.getElementById("class").classList.toggle("show");
+  document.getElementById("race").classList.toggle("show");
 }
 function backgroundDropDown() {
-  document.getElementById("background").classList.toggle("show");
+  document.getElementById("race").classList.toggle("show");
+}
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
