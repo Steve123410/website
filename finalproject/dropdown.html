@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> DnD Character Creater </title>
+<link type="text/css" rel="stylesheet" href="dndcc.css">
+
+</head>
+<body>
+  
+  		<select id="language" onChange="update()">
+			<option value="en">English</option>
+			<option value="es">Español</option>
+			<option value="pt">Português</option>
+		</select>
+  
+		<input type="text" id="value">
+		<input type="text" id="text">
+
+		<script type="text/javascript">
+			function update() {
+				var select = document.getElementById('language');
+				var option = select.options[select.selectedIndex];
+
+				document.getElementById('value').value = option.value;
+				document.getElementById('text').value = option.text;
+			}
+
+			update();
+		</script>
+  
+<footer style="font-family:monospace;">
+  <h3><a href=".."> Go Back</a></h3>
+  <a href="http://validator.w3.org/check?uri=https://steve123410.github.io/website/experiments/index.html">
+  <strong> HTML </strong> Valid! </a>
+  <a href="http://jigsaw.w3.org/css-validator?uri=https://steve123410.github.io/website/experiments/index.html?profile=css3">
+  <strong> CSS </strong> Valid! </a>
+  <div style="padding: 20px;"></div>
+</footer>
+</body>
+</html>
