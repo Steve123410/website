@@ -27,13 +27,35 @@
      <option value="12">Teifling</option>
   </select>
 	
-		<script type="text/javascript">
+ <script type="text/javascript">
       function getRace() {
 				var select = document.getElementById('race');
 				var option = select.options[select.selectedIndex];
 			}
         getRace();
-		</script>
+  </script>
+	
+<select id="class" onChange= "getClass" >
+	<option value="0"Barbarian</option>
+	<option value="1">Bard</option>
+	<option value="2">Cleric</option>
+	<option value="3">Druid</option>
+	<option value="4">Fighter</option>
+	<option value="5">Monk</option>
+	<option value="6">Ranger</option>
+	<option value="7">Rouge</option>
+	<option value="8">Source</option>
+	<option value="9">Warlock</option>
+	<option value="10">Wizard</option>
+	</select>
+	
+ <script type="text/javascript">
+      function getClass(){
+				var select = document.getElementById('class');
+				var option = select.options[select.selectedIndex];
+			}
+        getClass();
+  </script>
   <div class="dropdown">
     <button onclick="classDropDown()" class="dropbtn">Dropdown</button>
      <div id="class" class="dropdown-content">
