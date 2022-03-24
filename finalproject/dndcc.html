@@ -11,26 +11,29 @@
   <canvas id="classic"width="640"height="700" style="border:1px solid #000000;"></canvas>
  <br> 
    
-  <div class="dropdown">
-    <button onclick="raceDropDown()" class="dropbtn">Dropdown</button>
-     <div id="race" class="dropdown-content">
-       <a href="#">Hill Dwarf</a>
-       <a href="#">Mountain Dwarf</a> 
-       <a href="#">High Elf</a>
-       <a href="#">Wood Elf</a>
-       <a href="#">Dark Elf</a>
-       <a href="#">Lightfoot Halfling</a>
-       <a href="#">Stout Halfling</a>
-       <a href="#">Human</a>
-       <a href="#">Dragon Born</a>
-       <a href="#">Forest Gnome</a>
-       <a href="#">Rock Gnome</a>
-       <a href="#">Half Elf</a>
-       <a href="#">Half Orc</a>
-       <a href="#">Tiefling</a>
-    </div>
-  </div>
-  
+   <select id="race" onChange="getRace()">
+     <option value="0">Hill Dwarf</option>
+     <option value="1">Mountain Dwarf</option>
+     <option value="2">High Elf</option>
+     <option value="3">Wood Elf</option>
+     <option value="4">Dark Elf</option>
+     <option value="5">Lightfoot Halfling</option>
+     <option value="6">Stout Halfling</option>
+     <option value="7">Human</option>
+     <option value="8">Dragon Born</option>
+     <option value="9">Forest Gnome</option>
+     <option value="10">Half Elf</option>
+     <option value="11">Half Orc</option>
+     <option value="12">Teifling</option>
+  </select>
+	
+		<script type="text/javascript">
+      function getRace() {
+				var select = document.getElementById('race');
+				var option = select.options[select.selectedIndex];
+			}
+        getRace();
+		</script>
   <div class="dropdown">
     <button onclick="classDropDown()" class="dropbtn">Dropdown</button>
      <div id="class" class="dropdown-content">
