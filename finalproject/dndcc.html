@@ -27,9 +27,6 @@
      <option value="12">Teifling</option>
   </select>
 	
-
-	
-	
 <!-- Class Dropdown --!>
 <select id="class" onChange= "getClass" >
 	<option value="0">Barbarian</option>
@@ -59,7 +56,15 @@
 	<option value="10">Sailor</option>
 	<option value="11">Soilder</option>
 	<option value="12">Urchin</option>
-	</select>
+</select>
+<!-- activation button--!>
+<button type="button" onclick="create">Create Character</button>
+
+ <script type="text/javascript">
+      function create(){
+			}
+        create();
+  </script>
  <script type="text/javascript">
       function getBack(){
 				var select = document.getElementById('background');
@@ -67,6 +72,7 @@
 			}
         getClass();
   </script>
+
  <script type="text/javascript">
       function getRace() {
 				var select = document.getElementById('race');
@@ -74,6 +80,7 @@
 			}
         getRace();
   </script>	
+
  <script type="text/javascript">
       function getClass(){
 				var select = document.getElementById('class');
@@ -81,7 +88,6 @@
 			}
         getClass();
   </script>
-
 
 <footer style="font-family:monospace;">
   <h3><a href=".."> Go Back</a></h3>
