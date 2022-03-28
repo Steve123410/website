@@ -10,7 +10,7 @@
   
   <canvas id="classic"width="640"height="700" style="border:1px solid #000000;"></canvas>
  <br> 
-   
+  <!-- race dropdown -->
    <select id="race" onChange="getRace()">
      <option value="0">Hill Dwarf</option>
      <option value="1">Mountain Dwarf</option>
@@ -35,8 +35,10 @@
         getRace();
   </script>
 	
+	
+<!-- Class Dropdown --!>
 <select id="class" onChange= "getClass" >
-	<option value="0"Barbarian</option>
+	<option value="0">Barbarian</option>
 	<option value="1">Bard</option>
 	<option value="2">Cleric</option>
 	<option value="3">Druid</option>
@@ -56,41 +58,32 @@
 			}
         getClass();
   </script>
-  <div class="dropdown">
-    <button onclick="classDropDown()" class="dropbtn">Dropdown</button>
-     <div id="class" class="dropdown-content">
-       <a href="#">Barbarian</a>
-       <a href="#">Bard</a> 
-       <a href="#">Cleric</a>
-       <a href="#">Druid</a>
-       <a href="#">Figher</a>
-       <a href="#">Monk</a>
-       <a href="#">Ranger</a>
-       <a href="#">Rouge</a>
-       <a href="#">Sourcer</a>
-       <a href="#">Warlock</a>
-       <a href="#">Wizard</a>
-    </div>
-  </div>
-  
-  <div class="dropdown">
-    <button onclick="backgroundDropDown()" class="dropbtn">Dropdown</button>
-     <div id="background" class="dropdown-content">
-       <a href="#">Acolyte</a>
-       <a href="#">Charlatan</a> 
-       <a href="#">Criminal</a>
-       <a href="#">Entertainer>
-       <a href="#">Folk Hero</a>
-       <a href="#">Guild Artisians</a>
-       <a href="#">Hermit</a>
-       <a href="#">Noble</a>
-       <a href="#">Outlander</a>
-       <a href="#">Sage</a>
-       <a href="#">Sailor</a>
-       <a href="#">Soilder</a>
-       <a href="#">Urchin</a>
-    </div>
-  </div>
+
+
+<!-- Background Dropdown --!>
+<select id="background" onChange= "getBack" >
+	<option value="0">Acolyte</option>
+	<option value="1">Charlatan</option>
+	<option value="2">Criminal</option>
+	<option value="3">Entertainer</option>
+	<option value="4">Folk Hero</option>
+	<option value="5">Guild Artisians</option>
+	<option value="6">Hermit</option>
+	<option value="7">Noble</option>
+	<option value="8">Outlander</option>
+	<option value="9">Sage</option>
+	<option value="10">Sailor</option>
+	<option value="11">Soilder</option>
+	<option value="12">Urchin</option>
+	</select>
+	
+ <script type="text/javascript">
+      function getBack(){
+				var select = document.getElementById('background');
+				var option = select.options[select.selectedIndex];
+			}
+        getClass();
+  </script>
 
   <script>
     /* When the user clicks on the button,
