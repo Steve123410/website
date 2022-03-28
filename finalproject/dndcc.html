@@ -27,13 +27,7 @@
      <option value="12">Teifling</option>
   </select>
 	
- <script type="text/javascript">
-      function getRace() {
-				var select = document.getElementById('race');
-				var option = select.options[select.selectedIndex];
-			}
-        getRace();
-  </script>
+
 	
 	
 <!-- Class Dropdown --!>
@@ -50,16 +44,6 @@
 	<option value="9">Warlock</option>
 	<option value="10">Wizard</option>
 	</select>
-	
- <script type="text/javascript">
-      function getClass(){
-				var select = document.getElementById('class');
-				var option = select.options[select.selectedIndex];
-			}
-        getClass();
-  </script>
-
-
 <!-- Background Dropdown --!>
 <select id="background" onChange= "getBack" >
 	<option value="0">Acolyte</option>
@@ -76,7 +60,6 @@
 	<option value="11">Soilder</option>
 	<option value="12">Urchin</option>
 	</select>
-	
  <script type="text/javascript">
       function getBack(){
 				var select = document.getElementById('background');
@@ -84,35 +67,21 @@
 			}
         getClass();
   </script>
-
-  <script>
-    /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function raceDropDown() {
-  document.getElementById("race").classList.toggle("show");
-}
-function classDropDown() {
-  document.getElementById("class").classList.toggle("show");
-}
-function backgroundDropDown() {
-  document.getElementById("background").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-    
+ <script type="text/javascript">
+      function getRace() {
+				var select = document.getElementById('race');
+				var option = select.options[select.selectedIndex];
+			}
+        getRace();
+  </script>	
+ <script type="text/javascript">
+      function getClass(){
+				var select = document.getElementById('class');
+				var option = select.options[select.selectedIndex];
+			}
+        getClass();
   </script>
+
 
 <footer style="font-family:monospace;">
   <h3><a href=".."> Go Back</a></h3>
