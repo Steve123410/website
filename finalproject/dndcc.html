@@ -8,7 +8,7 @@
 </head>
 <body>
   
-  <canvas id="classic"width="640"height="700" style="border:1px solid #000000;"></canvas>
+  <canvas id="monitor"width="640"height="700" style="border:1px solid #000000;"></canvas>
  <br> 
   <!-- race dropdown -->
    <select id="race" onChange="getRace()">
@@ -59,11 +59,11 @@
 </select>
 <br>
 <!-- activation button--!>
-<button type="button" onclick="alert('create')">Click Me!</button>
+<button type="button" onclick="create()">Click Me!</button>
 
  <script type="text/javascript">
       function create(){
-        var c = document.getElementById("classic");
+        var c = document.getElementById("monitor");
         
         var redSquare = c.getContext("2d");
         var yellowSquare = c.getContext("2d");
