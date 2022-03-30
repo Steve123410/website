@@ -63,7 +63,46 @@
 
  <script type="text/javascript">
       function create(){
-			}
+        var c = document.getElementById("classic");
+        
+        var redSquare = c.getContext("2d");
+        var yellowSquare = c.getContext("2d");
+        var blueSquare = c.getContext("2d");
+        
+        var line1 = c.getContext("2d");
+        var line2 = c.getContext("2d");
+        var line3 = c.getContext("2d");
+        var line4 = c.getContext("2d");
+        var line5 = c.getContext("2d");
+        var line6 = c.getContext("2d");
+        
+        redSquare.fillStyle = "#ff00aa";
+        redSquare.fillRect(0, 0, 300, 300);
+        
+        yellowSquare.fillStyle = "#fffb00";
+        yellowSquare.fillRect(0, 475, 100, 300);
+        
+        blueSquare.fillStyle = "#1100c9";
+        blueSquare.fillRect(300, 475, 225, 225);
+   
+        line1.fillStyle = "#000000";
+        line1.fillRect(300, 0, 25, 750);
+        
+        line2.fillStyle = "#000000";
+        line2.fillRect(0, 300, 750, 25);
+        
+        line3.fillStyle = "#000000";
+        line3.fillRect(0, 450, 750, 25);
+        
+        line4.fillStyle = "#000000";
+        line4.fillRect(525, 475, 25, 750);
+        
+        line5.fillStyle = "#000000";
+        line5.fillRect(300,700, 225,25);
+
+        line6.fillStyle = "#000000";
+        line6.fillRect(100, 475, 25, 750);
+}
         create();
   </script>
  <script type="text/javascript">
