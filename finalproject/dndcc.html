@@ -61,7 +61,8 @@
 <!-- activation button--!>
 <button type="button" onclick="create()">Click Me!</button>
 
- <script type="text/javascript">
+ <script>
+
       function create(){
         var c = document.getElementById("monitor");
         
@@ -69,9 +70,13 @@
         
         redSquare.fillStyle = "#ff00aa";
         redSquare.fillRect(0, 0, 300, 300);
-       
+
+        create();  
 }
-      create();
+     
+</script>
+
+<script>
       function getBack(){
 				var select = document.getElementById('background');
 				var option = select.options[select.selectedIndex];
