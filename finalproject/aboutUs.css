@@ -3,12 +3,12 @@ body {
   
   background: url(images/dragon.jpeg);
   background-repeat: no-repeat;
-  background-size: 1440px 780px;
+  background-size: 1440px 790px;
 }
 
 p{
-  -webkit-text-stroke: 1px white; /* width and color */
-  font-family: sans; color: black;
+  -webkit-text-stroke: 1px black; /* width and color */
+  font-family: sans; color: white;
   font-size: 25px;
 }
 h1{
