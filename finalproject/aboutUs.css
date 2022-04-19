@@ -2,5 +2,5 @@ body {
   font-size: small;
   font-family: Times, "Times New Roman", serif;
   line-height:1.6em;
-  background: url(images/dragon.jpeg) repeat-x;
+  background: url(images/dragon.jpeg);
 }
