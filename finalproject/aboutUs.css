@@ -11,3 +11,14 @@ p{
   font-family: sans; color: white;
   font-size: 25px;
 }
+h1{
+  font-family: sans; color: white;
+  font-size: 50px;
+}
+footer {
+text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #9900cc;
+}
