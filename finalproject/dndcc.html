@@ -93,6 +93,10 @@
 		ctx.font = "30px Arial";
    		if (clzz == "0") {
   		ctx.strokeText("Barbarian",10,50);
+		  var c = document.getElementById("monitor");
+	          var redSquare = c.getContext("2d");
+       		  redSquare.fillStyle = "#ff00aa";
+	          redSquare.fillRect(0, 0, 300, 300);
  		} else if (clzz == "1")
 		ctx.strokeText("welp",10,50);
 		}
