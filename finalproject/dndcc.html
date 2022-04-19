@@ -59,72 +59,44 @@
 </select>
 <br>
 <!-- activation button--!>
-<button type="button" onclick="create()">Click Me!</button>
+<button type="button" onclick="getClass">Click Me!</button>
 
  <script>
 
-      function create(){
+    create();  
+    
+  function create(){
         var c = document.getElementById("monitor");
         
         var redSquare = c.getContext("2d");        
         
         redSquare.fillStyle = "#ff00aa";
         redSquare.fillRect(0, 0, 300, 300);
+    }
 
-        create();  
-}
-     
-</script>
-
-<script>
       function getBack(){
-				var select = document.getElementById('background');
-				var option = select.options[select.selectedIndex];
+		var select = document.getElementById('background');
+		var option = select.options[select.selectedIndex];
 			}
       
       function getRace() {
-				var select = document.getElementById('race');
-				var option = select.options[select.selectedIndex];
+		var select = document.getElementById('race');
+		var option = select.options[select.selectedIndex];
 			}
 
       function getClass(){
-				var select = document.getElementById('class');
-				var option = select.options[select.selectedIndex];
+		var select = document.getElementById('class');
+		var clzz = select.options[select.selectedIndex];
+			
+		var canvas = document.getElementById("monitor");
+		var ctx = canvas.getContext("2d");
+		ctx.font = "30px Arial";
+   		if (clzz == "0") {
+  		ctx.strokeText("Barbarian",10,50);
+ 		} else if (clzz == "1")
+		ctx.strokeText("welp",10,50);
+		}
 }
-	function classStats(){
-	var canvas = document.getElementById("myCanvas");
-	var ctx = canvas.getContext("2d");
-	ctx.font = "30px Arial";
-  if (clzz == "Barbarian") {
-  	 ctx.strokeText("Barbarian",10,50);
- 	 } else if (clzz == "Bard" ) {
- 	  ctx.strokeText("Bard",10,50);
- 	 } else if (clzz == "Cleric") {
-    	  ctx.strokeText("Cleric",10,50);
-       	 } else if (clzz == "Druid") {
-	  ctx.strokeText("Druid",10,50);
- 	 } else if (clzz == "Fighter") {
-	  ctx.strokeText("Figher",10,50);
-	  } else if (clzz == "Monk") {
-	ctx.strokeText("Monk",10,50);
-	   } else if (clzz == "Paladin") {
-	 ctx.strokeText("Paladin",10,50);
-	  } else if (clzz == "Ranger") {
-	  ctx.strokeText("Ranger",10,50);
-	  } else if (clzz == "Rogue") {
-	  ctx.strokeText("Rouge",10,50);
-	  } else if (clzz == "Sorcerer") {
-	 ctx.strokeText("Sorcerer",10,50);
-	  } else if (clzz == "Warlock") {
-	   ctx.strokeText("Sorcerer",10,50);
-  	  } else if (clzz == "Wizard"){
-	ctx.strokeText("Wizard",10,50):
-}
-}
-	getBack();
-     	getRace();
-	getRace();
-	classStats();
  </script>
 
 <footer style="font-family:monospace;">
