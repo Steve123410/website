@@ -64,13 +64,14 @@
  <script>
 
       function create(){
+	function square(){
         var c = document.getElementById("monitor");
         var redSquare = c.getContext("2d");        
         
         redSquare.fillStyle = "#ff00aa";
         redSquare.fillRect(0, 0, 300, 300);
-
-        create();  
+	}
+        square();  
 }
 
       function getBack(){
