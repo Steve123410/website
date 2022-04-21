@@ -64,14 +64,19 @@
  <script>
 
       function create(){
-	function square(){
-        var c = document.getElementById("monitor");
-        var redSquare = c.getContext("2d");        
-        
-        redSquare.fillStyle = "#ff00aa";
-        redSquare.fillRect(0, 0, 300, 300);
+	function test(){
+		var select = document.getElementById('race');
+		var option = select.options[select.selectedIndex];
+       		if (race == 0)
+		{
+ 		var c = document.getElementById("monitor");
+       		var redSquare = c.getContext("2d");        
+        	
+        	redSquare.fillStyle = "#ff00aa";
+        	redSquare.fillRect(0, 0, 300, 300);
+		}
 	}
-        square();  
+        test();  
 }
 
       function getBack(){
