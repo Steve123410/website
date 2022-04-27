@@ -4,63 +4,6 @@
 <meta charset="utf-8">
 <title> DnD Character Creater </title>
 <link type="text/css" rel="stylesheet" href="dndcc.css">
-
-</head>
-<body>
-  
-  <canvas id="monitor"width="640"height="700" style="border:1px solid #000000;"></canvas>
- <br> 
-  <!-- race dropdown -->
-   <select id="race" onChange="getRace()">
-     <option value="0">Hill Dwarf</option>
-     <option value="1">Mountain Dwarf</option>
-     <option value="2">High Elf</option>
-     <option value="3">Wood Elf</option>
-     <option value="4">Dark Elf</option>
-     <option value="5">Lightfoot Halfling</option>
-     <option value="6">Stout Halfling</option>
-     <option value="7">Human</option>
-     <option value="8">Dragon Born</option>
-     <option value="9">Forest Gnome</option>
-     <option value="10">Half Elf</option>
-     <option value="11">Half Orc</option>
-     <option value="12">Teifling</option>
-  </select>
-	
-<!-- Class Dropdown --!>
-<select id="clzz" onChange= "getClass" >
-	<option value="0">Barbarian</option>
-	<option value="1">Bard</option>
-	<option value="2">Cleric</option>
-	<option value="3">Druid</option>
-	<option value="4">Fighter</option>
-	<option value="5">Monk</option>
-	<option value="6">Ranger</option>
-	<option value="7">Rouge</option>
-	<option value="8">Source</option>
-	<option value="9">Warlock</option>
-	<option value="10">Wizard</option>
-	</select>
-<!-- Background Dropdown --!>
-<select id="background" onChange= "getBack" >
-	<option value="0">Acolyte</option>
-	<option value="1">Charlatan</option>
-	<option value="2">Criminal</option>
-	<option value="3">Entertainer</option>
-	<option value="4">Folk Hero</option>
-	<option value="5">Guild Artisians</option>
-	<option value="6">Hermit</option>
-	<option value="7">Noble</option>
-	<option value="8">Outlander</option>
-	<option value="9">Sage</option>
-	<option value="10">Sailor</option>
-	<option value="11">Soilder</option>
-	<option value="12">Urchin</option>
-</select>
-<br>
-<!-- activation button--!>
-<button type="button" onclick="create()">Click Me!</button>
-
  <script>
 
       function create(){
@@ -124,6 +67,125 @@
 }
 }
  </script>
+</head>
+<body>
+  
+  <canvas id="monitor"width="640"height="700" style="border:1px solid #000000;"></canvas>
+ <br> 
+  <!-- race dropdown -->
+   <select id="race" onChange="getRace()">
+     <option value="0">Hill Dwarf</option>
+     <option value="1">Mountain Dwarf</option>
+     <option value="2">High Elf</option>
+     <option value="3">Wood Elf</option>
+     <option value="4">Dark Elf</option>
+     <option value="5">Lightfoot Halfling</option>
+     <option value="6">Stout Halfling</option>
+     <option value="7">Human</option>
+     <option value="8">Dragon Born</option>
+     <option value="9">Forest Gnome</option>
+     <option value="10">Half Elf</option>
+     <option value="11">Half Orc</option>
+     <option value="12">Teifling</option>
+  </select>
+	
+<!-- Class Dropdown --!>
+<select id="clzz" onChange= "getClass" >
+	<option value="0">Barbarian</option>
+	<option value="1">Bard</option>
+	<option value="2">Cleric</option>
+	<option value="3">Druid</option>
+	<option value="4">Fighter</option>
+	<option value="5">Monk</option>
+	<option value="6">Ranger</option>
+	<option value="7">Rouge</option>
+	<option value="8">Source</option>
+	<option value="9">Warlock</option>
+	<option value="10">Wizard</option>
+	</select>
+ <script>
+
+      function create(){
+	function test(){
+		var select = document.getElementById('race');
+		var option = select.options[select.selectedIndex];
+       		if (option == 0)
+		{
+ 		var c = document.getElementById("monitor");
+       		var redSquare = c.getContext("2d");        
+        	
+        	redSquare.fillStyle = "#ff00aa";
+        	redSquare.fillRect(0, 0, 300, 300);
+		}
+	}
+        test();  
+}
+
+      function getBack(){
+				var select = document.getElementById('background');
+				var option = select.options[select.selectedIndex];
+			}
+      
+      function getRace() {
+				var select = document.getElementById('race');
+				var option = select.options[select.selectedIndex];
+			}
+
+      function getClass(){
+				var select = document.getElementById('class');
+				var option = select.options[select.selectedIndex];
+}
+	function classStats(){
+	var canvas = document.getElementById("monitor");
+	var ctx = canvas.getContext("2d");
+	ctx.font = "30px Arial";
+  if (clzz == "Barbarian") {
+  	 ctx.strokeText("Barbarian",10,50);
+ 	 } else if (clzz == "Bard" ) {
+ 	  ctx.strokeText("Bard",10,50);
+ 	 } else if (clzz == "Cleric") {
+    	  ctx.strokeText("Cleric",10,50);
+       	 } else if (clzz == "Druid") {
+	  ctx.strokeText("Druid",10,50);
+ 	 } else if (clzz == "Fighter") {
+	  ctx.strokeText("Figher",10,50);
+	  } else if (clzz == "Monk") {
+	ctx.strokeText("Monk",10,50);
+	   } else if (clzz == "Paladin") {
+	 ctx.strokeText("Paladin",10,50);
+	  } else if (clzz == "Ranger") {
+	  ctx.strokeText("Ranger",10,50);
+	  } else if (clzz == "Rogue") {
+	  ctx.strokeText("Rouge",10,50);
+	  } else if (clzz == "Sorcerer") {
+	 ctx.strokeText("Sorcerer",10,50);
+	  } else if (clzz == "Warlock") {
+	   ctx.strokeText("Sorcerer",10,50);
+  	  } else if (clzz == "Wizard"){
+	ctx.strokeText("Wizard",10,50);
+}
+}
+ </script><!-- Background Dropdown --!>
+<select id="background" onChange= "getBack" >
+	<option value="0">Acolyte</option>
+	<option value="1">Charlatan</option>
+	<option value="2">Criminal</option>
+	<option value="3">Entertainer</option>
+	<option value="4">Folk Hero</option>
+	<option value="5">Guild Artisians</option>
+	<option value="6">Hermit</option>
+	<option value="7">Noble</option>
+	<option value="8">Outlander</option>
+	<option value="9">Sage</option>
+	<option value="10">Sailor</option>
+	<option value="11">Soilder</option>
+	<option value="12">Urchin</option>
+</select>
+<br>
+<!-- activation button--!>
+<button type="button" onclick="create()">Click Me!</button>
+
+
 
 <footer style="font-family:monospace;">
   <h3><a href=".."> Go Back</a></h3>
