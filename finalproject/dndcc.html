@@ -103,69 +103,8 @@
 	<option value="9">Warlock</option>
 	<option value="10">Wizard</option>
 	</select>
- <script>
 
-      function create(){
-	function test(){
-		var select = document.getElementById('race');
-		var option = select.options[select.selectedIndex];
-       		if (option == 0)
-		{
- 		var c = document.getElementById("monitor");
-       		var redSquare = c.getContext("2d");        
-        	
-        	redSquare.fillStyle = "#ff00aa";
-        	redSquare.fillRect(0, 0, 300, 300);
-		}
-	}
-        test();  
-}
-
-      function getBack(){
-				var select = document.getElementById('background');
-				var option = select.options[select.selectedIndex];
-			}
-      
-      function getRace() {
-				var select = document.getElementById('race');
-				var option = select.options[select.selectedIndex];
-			}
-
-      function getClass(){
-				var select = document.getElementById('class');
-				var option = select.options[select.selectedIndex];
-}
-	function classStats(){
-	var canvas = document.getElementById("monitor");
-	var ctx = canvas.getContext("2d");
-	ctx.font = "30px Arial";
-  if (clzz == "Barbarian") {
-  	 ctx.strokeText("Barbarian",10,50);
- 	 } else if (clzz == "Bard" ) {
- 	  ctx.strokeText("Bard",10,50);
- 	 } else if (clzz == "Cleric") {
-    	  ctx.strokeText("Cleric",10,50);
-       	 } else if (clzz == "Druid") {
-	  ctx.strokeText("Druid",10,50);
- 	 } else if (clzz == "Fighter") {
-	  ctx.strokeText("Figher",10,50);
-	  } else if (clzz == "Monk") {
-	ctx.strokeText("Monk",10,50);
-	   } else if (clzz == "Paladin") {
-	 ctx.strokeText("Paladin",10,50);
-	  } else if (clzz == "Ranger") {
-	  ctx.strokeText("Ranger",10,50);
-	  } else if (clzz == "Rogue") {
-	  ctx.strokeText("Rouge",10,50);
-	  } else if (clzz == "Sorcerer") {
-	 ctx.strokeText("Sorcerer",10,50);
-	  } else if (clzz == "Warlock") {
-	   ctx.strokeText("Sorcerer",10,50);
-  	  } else if (clzz == "Wizard"){
-	ctx.strokeText("Wizard",10,50);
-}
-}
- </script><!-- Background Dropdown --!>
+<!-- Background Dropdown --!>
 <select id="background" onChange= "getBack" >
 	<option value="0">Acolyte</option>
 	<option value="1">Charlatan</option>
