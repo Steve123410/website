@@ -3,9 +3,7 @@ body {
   background: url(images/dragon.jpeg);
   background-repeat: no-repeat;
   background-size: 1440px 790px;
-}
-
-p{
+}p{
   -webkit-text-stroke: 0.5px black;
   font-family: sans; color: white;
   font-size: 25px;
