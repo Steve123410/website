@@ -15,7 +15,7 @@ for (var i = 0; i < 4; i++) {
   total = total + dice;//Add it all up
 }
  total = total - lowNum;//Subtract smallest number
- 
+
  return total;
 }
 //-------------------------------------------------------------------------------------------------------------------------
