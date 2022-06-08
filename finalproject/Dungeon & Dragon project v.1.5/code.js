@@ -286,6 +286,7 @@ onEvent("rollDice", "click", function( ) {
   chooseStats();
   console.log("Stats before raceMod" + stats);
   raceMod();
+  modifiers();
   chooseBackground();
   classStats();
   console.log(background);
