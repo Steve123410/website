@@ -263,6 +263,14 @@ function classStats(){
     setText("classText", "Wizard");
   }
 }
+ function modifiers(){
+ var sMod = Math.Floor(stats[0]/2);
+ var dMod = Math.Floor(stats[1]/2);
+ var coMod = Math.Floor(stats[2]/2);
+ var wMod = Math.Floor(stats[3]/2);
+ var iMod = Math.Floor(stats[4]/2);
+ var chMod = Math.Floor(stats[5]/2);
+ }
 
 //Equipment
 //------------------------------------------------------------------------------------------------------------------------
